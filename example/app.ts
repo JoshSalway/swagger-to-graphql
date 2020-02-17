@@ -5,7 +5,7 @@ import { createSchema } from '../src';
 
 const app = express();
 
-const pathToSwaggerSchema = `${__dirname}/../test/fixtures/petstore.yaml`;
+const pathToSwaggerSchema = `https://petstore.swagger.io/v2`;
 
 createSchema({
   swaggerSchema: pathToSwaggerSchema,
